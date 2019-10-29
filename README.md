@@ -23,7 +23,7 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
   ```
   * Clone this repository.
   ```
-  $ git clone 
+  $ git clone https://github.com/ghunshoot/Yolo_Object_Detection.git
   ```
 
 ### Requirements for Jetson Nano
@@ -100,6 +100,7 @@ $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 Then we run `yolov3-tiny_test_CPU.py`.
 ```
+$ cd Yolo_Object_Detection
 $ python3 yolov3-tiny_test_CPU.py
 ```
 
