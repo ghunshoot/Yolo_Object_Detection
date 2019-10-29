@@ -1,4 +1,4 @@
-# yolov3-tiny Jetson Nano
+# Yolov3-tiny Jetson Nano
 Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Requirements for Jetson Nano
