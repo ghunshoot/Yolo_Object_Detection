@@ -36,6 +36,26 @@ Anyway here is the most important.
 
 ## Installation
 ### Installation for Jetson Nano
+First we download darknet, we need to have git installed.
+```
+$ git clone https://github.com/AlexeyAB/darknet
+$ cd darknet
+$ git checkout darknet_yolo_v3 -b jetson_nano
+```
+Modify the Makefil in ~/darknet
+```
+GPU=1
+CUDNN=1
+OPENCV=1
+ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
+``` 
+```
+~/darknet
+$ git clone https://github.com/AlexeyAB/darknet
+```
+$ cd ~/github/darknet
+$ wget https://pjreddie.com/media/files/yolov3.weights
+$ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ### Installation for Linux with GPU
 ### Installation for Linux with CPU
 
