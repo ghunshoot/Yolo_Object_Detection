@@ -1,4 +1,4 @@
-# Custmo object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
+# Custom object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
 
 ## Introduction
 
@@ -106,5 +106,6 @@ Then we run `yolov3-tiny_test_CPU.py`.
 $ cd Yolo_Object_Detection
 $ python3 yolov3-tiny_test_CPU.py
 ```
+
 
 
