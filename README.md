@@ -22,7 +22,7 @@ Anyway here is the most important.
 * CUDA 10.0
 * cuDNN >= 7.0 for CUDA 10.0
 * OpenCV >= 2.4:
-
+    ```
   $ sudo apt-get install libopencv-dev python-opencv
   $ sudo pip3 install opencv-python
   ```
@@ -35,3 +35,7 @@ Anyway here is the most important.
   ```
 
 ## Installation
+### Installation for Jetson Nano
+### Installation for Linux with GPU
+### Installation for Linux with CPU
+
