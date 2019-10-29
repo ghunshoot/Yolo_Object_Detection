@@ -24,7 +24,7 @@ Anyway here is the most important.
   $ sudo pip3 install opencv-python
   ```
 
-### Requirements for Linux with GPU
+### Requirements for Linux with CPU
 
 ## Installation
 
