@@ -18,18 +18,17 @@ Anyway here is the most important.
 * CMake >= 3.8
 * CUDA 10.0
 * cuDNN >= 7.0 for CUDA 10.0
-* OpenCV >= 2.4: install by
+* OpenCV >= 2.4:
   ```
   $ sudo apt-get install libopencv-dev python-opencv
   $ sudo pip3 install opencv-python
   ```
 
 ### Requirements for Linux with CPU
-* OpenCV >= 2.4: install by
+* OpenCV >= 2.4:
   ```
   $ sudo apt-get install libopencv-dev python-opencv
   $ sudo pip3 install opencv-python
   ```
 
 ## Installation
-
