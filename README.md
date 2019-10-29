@@ -42,20 +42,27 @@ $ git clone https://github.com/AlexeyAB/darknet
 $ cd darknet
 $ git checkout darknet_yolo_v3 -b jetson_nano
 ```
-Modify the Makefil in ~/darknet
+Modify the Makefile in ~/darknet.
 ```
 GPU=1
 CUDNN=1
 OPENCV=1
 ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
 ``` 
+Then we run make.
 ```
-~/darknet
-$ git clone https://github.com/AlexeyAB/darknet
+$ cd darknet
+$ make
 ```
-$ cd ~/github/darknet
+Install the weights for Yolo-v3 and Yolo-v3-tiny.
+```
 $ wget https://pjreddie.com/media/files/yolov3.weights
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
+```
+To test installation, run this command.
+```
+./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
+```
 ### Installation for Linux with GPU
 ### Installation for Linux with CPU
 
