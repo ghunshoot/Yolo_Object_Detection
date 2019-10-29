@@ -4,8 +4,9 @@ Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 ## Introduction
 
 ## Index
+0. [Requirements](#Requirements)
 
-## Requiremets
+## Requirements
 ### Requirements for Jetson Nano
 * SANDISK micro-SD 64GB 
 * Jetson Nano DLI SDK
