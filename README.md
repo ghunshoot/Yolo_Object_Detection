@@ -11,7 +11,7 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 ### Requirements for Jetson Nano
 The NVIDIA Deep Learning Institute have a course that you must take to install and demo de Jetson Nano. This SDK brings all the necesary packages and libraries. Also you can earn a certificate for free. Check the course https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about. 
 * AC/DC converter minimum 3A.
-* SANDISK micro-SD 64GB (test with ADATA micro-SD and didn't run the OS).
+* SANDISK micro-SD 64GB (tested with ADATA micro-SD and didn't run the OS).
 * Jetson Nano DLI SDK
 
 ### Requirements for Linux with GPU
@@ -37,7 +37,7 @@ Anyway here is the most important.
   ```
 
 ## Installation
-### Installation for Jetson Nano
+### Installation for Jetson Nano and Linux with GPU
 First we download darknet, we need to have git installed.
 ```
 $ git clone https://github.com/AlexeyAB/darknet
@@ -49,7 +49,14 @@ Modify the Makefile in ~/darknet.
 GPU=1
 CUDNN=1
 OPENCV=1
+```
+For Jetson Nano:
+```
 ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
+``` 
+For Linux with GPU:
+```
+ARCH= # Here we add the corresponding ARCH to your GPU model. This are are commented below this line.
 ``` 
 Then we run make.
 ```
@@ -65,6 +72,6 @@ To test installation, run this command.
 ```
 $ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
-### Installation for Linux with GPU
+
 ### Installation for Linux with CPU
 
