@@ -70,8 +70,10 @@ $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 To test installation, run this command.
 ```
+# Yolo-v3
 $ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
-or
+
+# Yolo-v3-tiny
 $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 ```
 
