@@ -23,7 +23,7 @@
   $ sudo apt-get install libopencv-dev python-opencv
   $ sudo pip3 install opencv-python
   ```
-  * Clone this repository.
+* Clone this repository.
   ```
   $ git clone https://github.com/ghunshoot/Yolo_Object_Detection.git
   ```
