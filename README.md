@@ -25,6 +25,11 @@ Anyway here is the most important.
   ```
 
 ### Requirements for Linux with CPU
+* OpenCV >= 2.4: install by
+  ```
+  $ sudo apt-get install libopencv-dev python-opencv
+  $ sudo pip3 install opencv-python
+  ```
 
 ## Installation
 
