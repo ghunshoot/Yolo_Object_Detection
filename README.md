@@ -1,4 +1,4 @@
-# Object detection using Yolo-v3 with CPU/GPU or Yolo-v3-tiny with a Jetson Nano
+# Object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
 Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Introduction
@@ -13,6 +13,13 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
    * [Installation for Jetson Nano and Linux with GPU](#Installation_for_Jetson_Nano_and_Linux_with_GPU)
 
 ## Requirements
+### General Requirements
+* OpenCV >= 2.4:
+    ```
+  $ sudo apt-get install libopencv-dev python-opencv
+  $ sudo pip3 install opencv-python
+  ```
+
 ### Requirements for Jetson Nano
 The NVIDIA Deep Learning Institute have a course that you must take to install and demo de Jetson Nano. This SDK brings all the necesary packages and libraries. Also you can earn a certificate for free. Check the course https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about. 
 * AC/DC converter minimum 3A.
@@ -28,18 +35,10 @@ Anyway here is the most important.
     ```
 * CUDA 10.0
 * cuDNN >= 7.0 for CUDA 10.0
-* OpenCV >= 2.4:
-    ```
-  $ sudo apt-get install libopencv-dev python-opencv
-  $ sudo pip3 install opencv-python
-  ```
 
 ### Requirements for Linux with CPU
-* OpenCV >= 2.4:
-  ```
-  $ sudo apt-get install libopencv-dev python-opencv
-  $ sudo pip3 install opencv-python
-  ```
+* OpenCV >= 2.4
+* `yolov3-tiny_test_CPU.py` script.
 
 ## Installation
 ### Installation for Jetson Nano and Linux with GPU
@@ -86,4 +85,16 @@ $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 ```
 
 ### Installation for Linux with CPU
+Running Yolo-v3-tiny can be achieved only using OpenCV.
+We download darknet and weights, we need to have git installed.
+```
+$ git clone https://github.com/AlexeyAB/darknet
+$ cd darknet
+$ wget https://pjreddie.com/media/files/yolov3-tiny.weights
+```
+Then we run `yolov3-tiny_test_CPU.py`.
+```
+$ python3 yolov3-tiny_test_CPU.py
+```
+
 
