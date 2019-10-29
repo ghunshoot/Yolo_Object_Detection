@@ -1,5 +1,5 @@
 # Object detection using Yolo-v3 with CPU/GPU or Yolo-v3-tiny with a Jetson Nano
-Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
+Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Introduction
 
