@@ -1,4 +1,4 @@
-# yolov3-tiny_jetson-nano
+# yolov3-tiny Jetson Nano
 Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 * hola
