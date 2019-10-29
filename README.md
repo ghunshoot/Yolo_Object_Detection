@@ -45,7 +45,6 @@ Anyway here is the most important.
 * cuDNN >= 7.0 for CUDA 10.0
 
 ### Requirements for Linux with CPU
-* OpenCV >= 2.4
 * [yolov3-tiny_test_CPU.py](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/yolov3-tiny_test_CPU.py).
 
 ## Installation
