@@ -40,7 +40,7 @@ Anyway here is the most important.
 
 ### Requirements for Linux with CPU
 * OpenCV >= 2.4
-* [yolov3-tiny_test_CPU.py](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/yolov3-tiny_test_CPU.py) script from .
+* [yolov3-tiny_test_CPU.py](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/yolov3-tiny_test_CPU.py).
 
 ## Installation
 ### Installation for Jetson Nano and Linux with GPU
