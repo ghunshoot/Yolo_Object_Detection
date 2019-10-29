@@ -94,7 +94,8 @@ $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 
 ### Installation for Linux with CPU
 Running Yolo-v3-tiny can be achieved only using OpenCV.
-We download darknet and weights, we need to have git installed.
+
+We have to download darknet and weights, we need to have git installed.
 ```
 $ git clone https://github.com/AlexeyAB/darknet
 $ cd darknet
