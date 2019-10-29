@@ -21,6 +21,10 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
   $ sudo apt-get install libopencv-dev python-opencv
   $ sudo pip3 install opencv-python
   ```
+  * Clone this repository.
+  ```
+  $ git clone 
+  ```
 
 ### Requirements for Jetson Nano
 The NVIDIA Deep Learning Institute have a course that you must take to install and demo de Jetson Nano. This SDK brings all the necesary packages and libraries. Also you can earn a certificate for free. Check the course https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about. 
