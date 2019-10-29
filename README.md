@@ -9,6 +9,8 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Requirements
 ### Requirements for Jetson Nano
+The NVIDIA Deep Learning Institute have a course that you must take to install and demo de Jetson Nano DLI SDK. This SDK brings all the necesary. And you can earned a certificate for free. Check the course https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about. 
+* AC/DC converter minimum 3A.
 * SANDISK micro-SD 64GB (test with ADATA micro-SD and didn't run the OS).
 * Jetson Nano DLI SDK
 
