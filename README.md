@@ -13,7 +13,7 @@ Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 * Jetson Nano DLI SDK
 
 ### Requirements for Linux with GPU
-You can check the requirements directly in AelexyAB/darknet repository https://github.com/AlexeyAB/darknet#requirements.
+You can check the requirements directly in AlexeyAB/darknet repository https://github.com/AlexeyAB/darknet#requirements.
 Anyway here is the most important.
 * OpenCV >= 2.4: install by
   ```
