@@ -42,6 +42,9 @@ First we download darknet, we need to have git installed.
 ```
 $ git clone https://github.com/AlexeyAB/darknet
 $ cd darknet
+```
+Additional command only for the Jetson Nano.
+```
 $ git checkout darknet_yolo_v3 -b jetson_nano
 ```
 Modify the Makefile in ~/darknet.
