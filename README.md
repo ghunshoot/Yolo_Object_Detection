@@ -15,6 +15,7 @@
 
 ## Requirements
 ### General Requirements
+* Ubuntu 18.04
 * Python >= 3
 * Git = 2.17.1
 * OpenCV >= 2.4:
