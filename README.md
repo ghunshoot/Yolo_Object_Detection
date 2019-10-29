@@ -9,8 +9,8 @@ Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 * https://github.com/AlexeyAB/darknet#requirements
 * OpenCV >= 2.4: install by
 ```
-sudo apt-get install libopencv-dev python-opencv
-sudo pip3 install opencv-python
+$ sudo apt-get install libopencv-dev python-opencv
+$ sudo pip3 install opencv-python
 ```
 
 
