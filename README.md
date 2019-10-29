@@ -13,16 +13,4 @@ $ sudo apt-get install libopencv-dev python-opencv
 $ sudo pip3 install opencv-python
 ```
 
-
-
 ## Requirements for Linux with GPU
-
-
-##
-
-* hola
-* `como estas`
-```
-$ sudo apt install pip3-pyt
-```
-hola
