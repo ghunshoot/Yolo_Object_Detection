@@ -1,5 +1,4 @@
 # Object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
-Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Introduction
 
@@ -11,6 +10,7 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
     * [Requirements for Linux with CPU](#Requirements_for_Linux_with_CPU)
 2. [Installation](#Installation)
    * [Installation for Jetson Nano and Linux with GPU](#Installation_for_Jetson_Nano_and_Linux_with_GPU)
+   * [Installation for Linux with CPU](#Installation_for_Linux_with_CPU)
 
 ## Requirements
 ### General Requirements
