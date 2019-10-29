@@ -15,7 +15,7 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 ### Requirements for Linux with GPU
 You can check the requirements directly in AlexeyAB/darknet repository https://github.com/AlexeyAB/darknet#requirements.
 Anyway here is the most important.
-* CMake >= 3.8
+* CMake >= 3.8:
     ```
   $ sudo apt-get install cmake
     ```
