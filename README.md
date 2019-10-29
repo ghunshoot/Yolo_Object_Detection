@@ -4,8 +4,8 @@ Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 ## Introduction
 
 ## Index
-0. [Introduction](##Introduccion)
-0. [Requirements](##Requirements)
+0. [Introduction](#Introduccion)
+0. [Requirements](#Requirements)
 
 ## Requirements
 ### Requirements for Jetson Nano
