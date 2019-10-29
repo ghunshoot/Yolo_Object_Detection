@@ -5,7 +5,7 @@
 ## Index
 0. [Introduction](#Introduction)
 1. [Requirements](#Requirements)
-    * [Requirements for Jetson Nano](#Requirements_for_Jetson_Nano)
+    * [Requirements for Jetson Nano](##Requirements_for_Jetson_Nano)
     * [Requirements for Linux with GPU](#Requirements_for_Linux with GPU)
     * [Requirements for Linux with CPU](#Requirements_for_Linux_with_CPU)
 2. [Installation](#Installation)
