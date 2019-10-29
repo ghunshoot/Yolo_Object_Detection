@@ -63,7 +63,7 @@ $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 To test installation, run this command.
 ```
-./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
+$ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 ```
 ### Installation for Linux with GPU
 ### Installation for Linux with CPU
