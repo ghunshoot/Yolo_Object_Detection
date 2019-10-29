@@ -5,12 +5,12 @@
 ## Index
 0. [Introduction](#Introduction)
 1. [Requirements](#Requirements)
-    * [Requirements for Jetson Nano](#Requirements_for_Jetson_Nano)
-    * [Requirements for Linux with GPU](#Requirements_for_Linux_with_GPU)
-    * [Requirements for Linux with CPU](#Requirements_for_Linux_with_CPU)
+    * [Requirements for Jetson Nano](#Requirements for Jetson_Nano)
+    * [Requirements for Linux with GPU](#Requirements for Linux with GPU)
+    * [Requirements for Linux with CPU](#Requirements for Linux_with CPU)
 2. [Installation](#Installation)
-   * [Installation for Jetson Nano and Linux with GPU](#Installation_for_Jetson_Nano_and_Linux_with_GPU)
-   * [Installation for Linux with CPU](#Installation_for_Linux_with_CPU)
+   * [Installation for Jetson Nano and Linux with GPU](#Installation for Jetson Nano and Linux with GPU)
+   * [Installation for Linux with CPU](#Installation for Linux with CPU)
 
 ## Requirements
 ### General Requirements
