@@ -14,6 +14,8 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 
 ## Requirements
 ### General Requirements
+* Python >= 3
+* Git = 2.17.1
 * OpenCV >= 2.4:
     ```
   $ sudo apt-get install libopencv-dev python-opencv
