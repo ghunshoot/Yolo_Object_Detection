@@ -9,6 +9,9 @@ Object detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
     * [Requirements for Jetson Nano](#Requirements_for_Jetson_Nano)
     * [Requirements for Linux with GPU](#Requirements_for_Linux_with_GPU)
     * [Requirements for Linux with CPU](#Requirements_for_Linux_with_CPU)
+2. [Installation](#Installation)
+   * [Installation for Jetson Nano and Linux with GPU](#Installation_for_Jetson_Nano_and_Linux_with_GPU)
+
 ## Requirements
 ### Requirements for Jetson Nano
 The NVIDIA Deep Learning Institute have a course that you must take to install and demo de Jetson Nano. This SDK brings all the necesary packages and libraries. Also you can earn a certificate for free. Check the course https://courses.nvidia.com/courses/course-v1:DLI+C-RX-02+V1/about. 
