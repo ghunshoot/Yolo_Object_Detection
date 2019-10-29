@@ -15,6 +15,9 @@ Object Detection using yolov3-tiny and inference in a Jetson Nano Developer Kit.
 ### Requirements for Linux with GPU
 You can check the requirements directly in AlexeyAB/darknet repository https://github.com/AlexeyAB/darknet#requirements.
 Anyway here is the most important.
+* CMake >= 3.8
+* CUDA 10.0
+* cuDNN >= 7.0 for CUDA 10.0
 * OpenCV >= 2.4: install by
   ```
   $ sudo apt-get install libopencv-dev python-opencv
