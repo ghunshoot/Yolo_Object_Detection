@@ -50,7 +50,7 @@ Anyway here is the most important.
 
 ## Installation
 ### Installation for Jetson Nano and Linux with GPU
-First we download darknet, we need to have git installed.
+First we clone darknet.
 ```
 $ git clone https://github.com/AlexeyAB/darknet
 $ cd darknet
