@@ -99,10 +99,12 @@ We have to download yolov3-tiny weights.
 $ cd Yolo_Object_Detection
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
-Modify this lines in `yolov3-tiny_test_CPU.py`.
+Modify this lines in `yolov3-tiny_test_CPU.py`. <PATH_TO> have to be replaced with the path of that directory.
+```
+Line 6: net = cv2.dnn.readNet("<PATH_TO>/darknet/yolov3-tiny.weights", "<PATH_TO>/darknet/cfg/yolov3-tiny.cfg")
 
-
-
+Line 8: with open("<PATH_TO>/darknet/cfg/coco.names", "r") as f: classes = [line.strip() for line in f.readlines()]
+```
 Then we run `yolov3-tiny_test_CPU.py`.
 ```
 $ python3 yolov3-tiny_test_CPU.py
