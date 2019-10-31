@@ -98,7 +98,7 @@ Running Yolo-v3-tiny can be achieved only using OpenCV.
 
 We have to download yolov3-tiny weights.
 ```
-$ cd Yolo_Object_Detection
+$ cd darknet
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 Modify this lines in `yolov3-tiny_test_CPU.py`. `<PATH_TO>` must be replaced with the path of the directory.
@@ -109,6 +109,7 @@ Line 8: with open("<PATH_TO>/darknet/cfg/coco.names", "r") as f: classes = [line
 ```
 Then we run `yolov3-tiny_test_CPU.py`.
 ```
+$ cd Yolo_Object_Detection
 $ python3 yolov3-tiny_test_CPU.py
 ```
 
