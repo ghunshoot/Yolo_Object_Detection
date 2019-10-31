@@ -1,4 +1,4 @@
-# Custom object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
+# Custom object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano
 
 ## Index
 0. [Introduction](#Introduction)
