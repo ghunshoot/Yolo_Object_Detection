@@ -94,17 +94,17 @@ $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 ### Installation for Linux with CPU
 Running Yolo-v3-tiny can be achieved only using OpenCV.
 
-We have to download darknet and weights.
+We have to download yolov3-tiny weights.
 ```
-$ git clone https://github.com/AlexeyAB/darknet
-$ cd darknet
+$ cd Yolo_Object_Detection
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
-Modify paths in `yolov3-tiny_test_CPU.py`
+Modify this lines in `yolov3-tiny_test_CPU.py`.
+
+
 
 Then we run `yolov3-tiny_test_CPU.py`.
 ```
-$ cd Yolo_Object_Detection
 $ python3 yolov3-tiny_test_CPU.py
 ```
 
