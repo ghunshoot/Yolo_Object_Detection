@@ -20,7 +20,7 @@
 * Git = 2.17.1
 * OpenCV >= 2.4:
     ```
-  $ sudo apt-get install libopencv-dev python-opencv
+  $ sudo apt-get install libopencv-dev python-opencv python3-pip
   $ sudo pip3 install opencv-python
   ```
 * Clone this repository.
