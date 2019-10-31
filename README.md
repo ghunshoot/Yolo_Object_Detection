@@ -91,8 +91,8 @@ $ ./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 ```
 
-### Installation for Linux with CPU
-Running Yolo-v3-tiny can be achieved only using OpenCV.
+### Installation for Linux with CPU (CUSTUM OBJECTS NOT SUPPORTED).
+Running Yolo-v3-tiny can be achieved only using OpenCV. 
 
 We have to download yolov3-tiny weights.
 ```
