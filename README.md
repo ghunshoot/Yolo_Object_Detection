@@ -100,6 +100,8 @@ $ git clone https://github.com/AlexeyAB/darknet
 $ cd darknet
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
+Modify paths in `yolov3-tiny_test_CPU.py`
+
 Then we run `yolov3-tiny_test_CPU.py`.
 ```
 $ cd Yolo_Object_Detection
