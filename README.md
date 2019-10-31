@@ -6,10 +6,10 @@
     * [General Requirements](#General-Requirements)
     * [Requirements for Jetson Nano](#Requirements-for-Jetson-Nano)
     * [Requirements for Linux with GPU](#Requirements-for-Linux-with-GPU)
-    * [Requirements for Linux with CPU (CUSTOM OBJECTS NOT SUPPORTED)](#Requirements-for-Linux-with-CPU)
+    * [Requirements for Linux with CPU (TRAINING CUSTOM OBJECTS NOT SUPPORTED)](#Requirements-for-Linux-with-CPU)
 2. [Installation](#Installation)
    * [Installation for Jetson Nano and Linux with GPU](#Installation-for-Jetson-Nano-and-Linux-with-GPU)
-   * [Installation for Linux with CPU (CUSTOM OBJECTS NOT SUPPORTED)](#Installation-for-Linux-with-CPU)
+   * [Installation for Linux with CPU (TRAINING CUSTOM OBJECTS NOT SUPPORTED)](#Installation-for-Linux-with-CPU)
 
 ## Introduction
 
@@ -45,7 +45,7 @@ Anyway here is the most important.
 * cuDNN >= 7.0 for CUDA 10.0
 
 ### Requirements for Linux with CPU 
-### (CUSTOM OBJECTS NOT SUPPORTED)
+### (TRAINING CUSTOM OBJECTS NOT SUPPORTED)
 * [yolov3-tiny_test_CPU.py](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/yolov3-tiny_test_CPU.py).
 
 ## Installation
@@ -93,7 +93,7 @@ $ ./darknet detect cfg/yolov3-tiny.cfg yolov3-tiny.weights data/dog.jpg
 ```
 
 ### Installation for Linux with CPU 
-### (CUSTOM OBJECTS NOT SUPPORTED)
+### (TRAINING CUSTOM OBJECTS NOT SUPPORTED)
 Running Yolo-v3-tiny can be achieved only using OpenCV. 
 
 We have to download yolov3-tiny weights.
