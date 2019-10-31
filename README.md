@@ -41,8 +41,8 @@ Anyway here is the most important.
     ```
   $ sudo apt-get install cmake
     ```
-* CUDA 10.0
-* cuDNN >= 7.0 for CUDA 10.0
+* CUDA 10.0 ([Installation](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/Installing_CUDA10_cuDNN7.md))
+* cuDNN >= 7.0 for CUDA 10.0 ([Installation](https://github.com/ghunshoot/Yolo_Object_Detection/blob/master/Installing_CUDA10_cuDNN7.md))
 
 ### Requirements for Linux with CPU 
 ### (TRAINING CUSTOM OBJECTS NOT SUPPORTED)
