@@ -1,7 +1,5 @@
 # Custom object detection using Yolo-v3 in a Linux with GPU or Yolo-v3-tiny in a Jetson Nano/Linux with CPU
 
-## Introduction
-
 ## Index
 0. [Introduction](#Introduction)
 1. [Requirements](#Requirements)
@@ -12,6 +10,8 @@
 2. [Installation](#Installation)
    * [Installation for Jetson Nano and Linux with GPU](#Installation-for-Jetson-Nano-and-Linux-with-GPU)
    * [Installation for Linux with CPU](#Installation-for-Linux-with-CPU)
+
+## Introduction
 
 ## Requirements
 ### General Requirements
@@ -109,6 +109,11 @@ Then we run `yolov3-tiny_test_CPU.py`.
 ```
 $ python3 yolov3-tiny_test_CPU.py
 ```
+
+## Gathering Data
+## Labeling Data
+## Training Model
+## Inferencing Model
 
 
 
