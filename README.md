@@ -6,10 +6,10 @@
     * [General Requirements](#General-Requirements)
     * [Requirements for Jetson Nano](#Requirements-for-Jetson-Nano)
     * [Requirements for Linux with GPU](#Requirements-for-Linux-with-GPU)
-    * [Requirements for Linux with CPU](#Requirements-for-Linux-with-CPU)
+    * [Requirements for Linux with CPU](#Requirements-for-Linux-with-CPU-(CUSTOM-OBJECTS-NOT-SUPPORTED))
 2. [Installation](#Installation)
    * [Installation for Jetson Nano and Linux with GPU](#Installation-for-Jetson-Nano-and-Linux-with-GPU)
-   * [Installation for Linux with CPU](#Installation-for-Linux-with-CPU)
+   * [Installation for Linux with CPU](#Installation-for-Linux-with-CPU-(CUSTOM-OBJECTS-NOT-SUPPORTED))
 
 ## Introduction
 
