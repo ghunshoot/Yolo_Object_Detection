@@ -75,11 +75,7 @@ ARCH= # Here we add the corresponding ARCH to your GPU model. This are are comme
 ``` 
 Then we run make.
 ```
-$ mkdir build-release
-$ cd build-release
-$ cmake ..
 $ make
-$ sudo make install
 ```
 Install the weights for Yolo-v3 and Yolo-v3-tiny.
 ```
