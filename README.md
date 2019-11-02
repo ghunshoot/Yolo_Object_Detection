@@ -72,6 +72,9 @@ ARCH= -gencode arch=compute_53,code=[sm_53,compute_53]
 For Linux with GPU:
 ```
 ARCH= # Here we add the corresponding ARCH to your GPU model. This are are commented below this line.
+
+If you don't find your corresponding GPU, look for your GPU in the following link:
+https://github.com/tpruvot/ccminer/wiki/Compatibility
 ``` 
 Then we run make.
 ```
