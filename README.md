@@ -117,6 +117,15 @@ $ python3 yolov3-tiny_test_CPU.py
 
 ## Gathering Data
 ## Labeling Data
+INSTALL LABEL IMG
+
+sudo apt-get install pyqt5-dev-tools
+https://github.com/tzutalin/labelImg/blob/master/requirements/requirements-linux-python3.txt
+sudo pip3 install -r requirements/requirements-linux-python3.txt
+make qt5py3
+python3 labelImg.py
+python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+
 ## Training Model
 ## Inferencing Model
 
