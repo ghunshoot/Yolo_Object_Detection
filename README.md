@@ -126,6 +126,10 @@ make qt5py3
 python3 labelImg.py
 python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+crear texto "classes.txt"
+
+poner todo en una sola carpeta, con el texto classes y correr el programa train_test.py
+
 ## Training Model
 ## Inferencing Model
 
